@@ -3,16 +3,13 @@
    ========================================================================== */
 
 .navigation-wrapper {
-  text-align: center;
   @include clearfix;
 
   ul {
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    margin: 0 0 50px;
-    padding: 4px 20px;
-    background-color: $black;
+    float: right;
 
     @include media($medium) {
       width: auto;
@@ -42,19 +39,18 @@
 
   a {
     display: block;
-    margin-bottom: 10px;
-    padding: 12px 20px;
+    padding: 12px 0px;
+    font-size: 150%;
 
     @include media($medium) {
       margin-bottom: 0;
-      padding: 6px 10px;
+      padding: 6px 0px 0px 10px;
     }
 
     color: $white;
     @include rounded(4px);
 
     &:hover {
-      background-color: lighten($black, 10);
     }
   }
 }
@@ -113,4 +109,38 @@
   @include media($medium) {
     display: none;
   }
+}
+
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+
+.logo {
+    float: left;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 200%;
+    padding-top: 10px;
+}
+
+
+/* ==========================================================================
+   h1 and h2 Description
+   ========================================================================== */
+
+.page_header_1 {
+  color: $white;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page_header_2 {
+  color: $white;
+  text-align: center;
+  font-size: 200%;
+  margin: 0px;
+  padding: 0px;
 }

@@ -55,3 +55,15 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+
+{% if page.image.feature %}
+<style>
+  header.masthead {
+    background-image: -webkit-linear-gradient(rgba(22, 160, 133, 0.3), rgba(22, 160, 133, 0.3)), url({{ site.url }}/images/{{ page.image.feature }});
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+  }
+</style>
+{% endif %}
