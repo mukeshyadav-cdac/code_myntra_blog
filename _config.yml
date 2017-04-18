@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Ruby On Rails | Nodejs | JavaScript |ReactJS | Angularjs Blog by CodeMyntra
+title: CodeMyntra Blog | India
 locale: en_US
-description: Describe your website here.
+description:  Blog on Engineering, Ruby on Rails, Nodejs, Angularjs, Reactjs, JavaScript and Ecosystem around Development, Culture and many more... | CodeMyntra
 logo: site-logo.png
 search: true
 url: http://blog.codemyntra.com
@@ -36,15 +36,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: CodeMyntra
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
+  email: contact@codemyntra.com
+  disqus-shortname: blog-codemyntra-com
+  twitter: codemyntra
+  facebook: codemyntra
+  github: codemyntra
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: codemyntra
   instagram: #username
   flickr: #username
   tumblr: #username
@@ -54,6 +54,6 @@ owner:
     plus: #username
     analytics:
     verify:
-    ad-client:
+    ad-client: UA-97609234-1
     ad-slot:
   bing-verify:
