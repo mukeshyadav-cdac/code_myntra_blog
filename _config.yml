@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: CodeMyntra Blog | India
+title: AgileCaterpiller Blog | India
 locale: en_US
 description:  Blog on Engineering, Ruby on Rails, Nodejs, Angularjs, Reactjs, JavaScript and Ecosystem around Development, Culture and many more... | CodeMyntra
 logo: site-logo.png
@@ -36,7 +36,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: CodeMyntra
+  name: AgileCaterpiller
   avatar: bio-photo.jpg
   email: admin@agilecaterpiller.com
   disqus-shortname: blog-agilecaterpiller-com
