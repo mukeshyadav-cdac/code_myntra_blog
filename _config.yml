@@ -5,7 +5,7 @@ locale: en_US
 description:  Blog on Engineering, Ruby on Rails, Nodejs, Angularjs, Reactjs, JavaScript and Ecosystem around Development, Culture and many more... | CodeMyntra
 logo: site-logo.png
 search: true
-url: http://blog.codemyntra.com
+url: http://blog.agilecaterpiller.com
 
 # Jekyll configuration
 
@@ -38,13 +38,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: CodeMyntra
   avatar: bio-photo.jpg
-  email: contact@codemyntra.com
-  disqus-shortname: blog-codemyntra-com
-  twitter: codemyntra
-  facebook: codemyntra
-  github: codemyntra
+  email: admin@agilecaterpiller.com
+  disqus-shortname: blog-agilecaterpiller-com
+  twitter: agilecaterpiller
+  facebook: agilecaterpiller
+  github: agilecaterpiller
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: codemyntra
+  linkedin: agilecaterpiller
   instagram: #username
   flickr: #username
   tumblr: #username
